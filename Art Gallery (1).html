@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Art Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Urbanist', sans-serif;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #222;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .art-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+    .art-card:hover {
+      transform: scale(1.03);
+    }
+    .art-card img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+    .art-card .caption {
+      padding: 1rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 2rem;
+      background: #222;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .footer-left {
+      flex: 1 1 60%;
+    }
+    .footer-right {
+      flex: 1 1 40%;
+      text-align: right;
+    }
+    .footer-right a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ My Art Gallery ✨</h1>
+    <p>A showcase of my favorite artworks</p>
+  </header>
+  <main class="gallery">
+    <div class="art-card">
+      <a href="kiki-delivery-service.html" target="_blank">
+        <img src="art1.jpg.jpeg" alt="Kiki from the movie - Kiki's Delivery Service">
+      </a>
+      <div class="caption">
+        <b>Kiki</b><br>
+        From the movie - Kiki's Delivery Service
+      </div>
+    </div>
+
+    <div class="art-card">
+    <a href="barbie-stereotype.html" target="_blank">
+        <img src="art2.jpg.jpeg" alt="Barbie - A representation of what a stereotypical girl is supposedto like">
+      </a>
+      <div class="caption">
+        <b>Barbie</b><br>
+        A representation of what a stereotypical girl/Barbie is supposed to like
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art3.html" target="_blank">
+        <img src="art3.jpg.jpeg" alt="A Violin, A Woman">
+      </a>
+      <div class="caption">
+        <b>A Violin, A Woman</b><br>
+        An Abstract art of two illusions
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art4.html" target="_blank">
+        <img src="art4.jpg.jpeg" alt="Muted Echoes: She Wore Tradition Like a Cage">
+      </a>
+      <div class="caption">
+        <b>Muted Echoes</b><br>
+        She Wore Tradition Like a Cage
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art5.html" target="_blank">
+        <img src="art5.jpg.jpeg" alt="Jessica Rabbit">
+      </a>
+      <div class="caption">
+        <b>Jessica Rabbit</b>
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art6.html" target="_blank">
+        <img src="art6.jpg.jpeg" alt="Twin Gazes: Where Her Soul Meets the Cat's Eyes">
+      </a>
+      <div class="caption">
+        <b>Twin Gazes</b><br>
+        Where Her Soul Meets the Cat's Eyes
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art7.html" target="_blank">
+        <img src="art7.jpg.jpeg" alt="A Ghibli version of me">
+      </a>
+      <div class="caption">
+        <b>Ghibli version</b> of me
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art8.html" target="_blank">
+        <img src="art8.jpg.jpeg" alt="Jiji from the movie Kiki's Delivery Service">
+      </a>
+      <div class="caption">
+        <b>Jiji</b><br>
+        from the movie Kiki's Delivery Service
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art9.html" target="_blank">
+        <img src="art9.jpg.jpeg" alt="Nature's Glow: A Neon Forest in Bloom">
+      </a>
+      <div class="caption">
+        <b>Nature's Glow</b><br>
+        A Neon Forest in Bloom
+      </div>
+    </div>
+
+    <div class="art-card">
+      <a href="art10.html" target="_blank">
+        <img src="art10.jpg.jpeg" alt="The Koi Pond">
+      </a>
+      <div class="caption">
+        <b>The Koi Pond</b>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      &copy; 2025 Prabhleen Aiza Dhupar | Made with ❤️ LOVE!<br />
+      <small>Special thanks to ChatGPT for helping me refine the titles, and to my dad for encouraging me to create this website.</small>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:aizaprabh@gmail.com">aizaprabh@gmail.com</a>
+    </div>
+  </footer>
+</body>
+</html>
